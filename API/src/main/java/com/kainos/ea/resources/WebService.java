@@ -28,7 +28,7 @@ public class WebService {
 //    }
 
     @GET
-    @Path("/employees")
+    @Path("/employees-new")
     @Produces(MediaType.APPLICATION_JSON)
     public List<Employee> getEmployees()throws SQLException {
         try {
